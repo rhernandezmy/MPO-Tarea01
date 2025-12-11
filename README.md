@@ -1,65 +1,72 @@
-🌐 Proyecto Web – Aprendiendo Git y GitHub
+# 🌐 Proyecto Web – Aprendiendo Git y GitHub
 
 Este proyecto forma parte de una práctica para aprender Git, ramas, GitHub, Pull Requests y documentación en Markdown, desarrollando una página web sencilla en HTML.
 
-📋 Tabla de Contenidos
+## 📋 Tabla de Contenidos
 
-Instalación
+- [Instalación](#-instalacion)
+- [Estructura del Proyecto](#-estructura-del-proyecto)
+- [Mejoras Implementadas](#-mejoras-implementadas)
+- [Uso de Ramas](#-uso-de-ramas)
+- [Autor](#-autor)
 
-Estructura del Proyecto
+## 🚀 Instalación
 
-Mejoras Implementadas
-
-Uso de Ramas
-
-Autor
-
-🚀 Instalación
-
-El proyecto se encuentra en la carpeta local tarea01. Para abrirlo:
+El proyecto se encuentra en la carpeta local **tarea01**. Para abrirlo:
 
 Accede a la carpeta:
 
-~/cd tarea01
+```bash
+cd tarea01
+```
 
-Abrir el archivo principal y modificarlo con texto html:
+Abre el archivo principal:
 
+```bash
 nano index.html
+```
 
 El proyecto ya está vinculado con GitHub:
 
+```bash
 git remote -v
+```
 
-Obtenemos:
+Salida esperada:
 
-origin  git@github.com:rhernandezmy/MPO-TAREA01.git (fetch)
-origin  git@github.com:rhernandezmy/MPO-TAREA01.git (push)
+```
+origin git@github.com:rhernandezmy/MPO-TAREA01.git (fetch)
+origin git@github.com:rhernandezmy/MPO-TAREA01.git (push)
+```
 
-📁 Estructura del Proyecto
+## 📁 Estructura del Proyecto
+
+```
 tarea01/
-|-- index.html        # Página principal del proyecto
-|-- README.md         # Documentación del proyecto
-|-- .gitignore        # Archivos y carpetas excluidos de Git
-|-- .vscode/          # Configuración local del editor (archivo no subido a github)
+│-- index.html      # Página principal del proyecto
+│-- README.md       # Documentación del proyecto
+│-- .gitignore      # Archivos y carpetas excluidos de Git
+│-- .vscode/        # Configuración local del editor (archivo no subido a GitHub)
+```
 
-✨ Mejoras Implementadas
+## ✨ Mejoras Implementadas
 
-Menú de navegación en la parte superior de la página
+- Menú de navegación en la parte superior
 
-Footer con enlaces a redes sociales
+- Footer con enlaces a redes sociales
 
-Uso de ramas independientes para cada mejora
+- Uso de ramas independientes para cada mejora
 
-🌿 Uso de Ramas
+## 🌿 Uso de Ramas
 
 Cada mejora se desarrolló en su propia rama:
 
-feature/menu → Menú de navegación
+- `feature/menu` → Menú de navegación
 
-feature/footer → Footer con enlaces
+- `feature/footer` → Footer con enlaces
 
-Luego se fusionaron en main mediante Pull Requests en GitHub.
+Después, se fusionaron en `main` mediante Pull Requests en GitHub.
 
-👤 Autor
+## 👤 Autor
 
-Proyecto desarrollado por rhernandezmy.
+Proyecto desarrollado por **rhernandezmy**.
